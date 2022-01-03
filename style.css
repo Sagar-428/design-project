@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+}
+.container-fluid{
+    padding-left: 2%;
+}
+.items{
+    padding: 5%;
+}
+#features{
+    background-color: lightgray;
+    padding: 5% 6%;
+}
+.cta-text{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: medium;
+}
+#download{
+    padding: 3% 5%;
+    background-color: lightgray;
+}
+.icon:hover{
+    color: crimson;
+}
+#title{
+    padding: 4% 7%;
+    background-color: lightyellow;
+}
+.title-text{
+    text-align: left;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-size: medium;
+}
+.title-heading{
+    text-align: left;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.title-download{
+    text-align: left;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+#footer {
+    padding: 3% 15%;
+}
+.social-icon {
+    margin: 20px 10px;
+    font-size: 1.5rem;
+}
+p{
+    color: gray;
+    font-size: large;
+}
+.download-button {
+    margin: 5% 3% 5% 0;   
+}
+
+@media (max-width: 1028px){
+    body{
+        text-align: center;
+    }
+    .title-download{
+        text-align: center;
+    }
+    .title-heading{
+        text-align: center;
+    }
+    .title-text{
+        text-align: center;
+    }
+    .feat-item{
+    width: 100%;
+    margin: 3% 3% 3% 3%;
+    }
+}
+.container-fluid{
+    width: 100%;
+}
